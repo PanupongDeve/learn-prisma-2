@@ -9,7 +9,8 @@
     "@prisma/cli": "2.6.2"
   },
   "scripts": {
-    "dev": "node ./script.js"
+    "dev": "node ./script.js",
+    "generate:prisma": "prisma generate"
   },
   "engines": {
     "node": ">=10.0.0"
